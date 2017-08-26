@@ -1,0 +1,43 @@
+/* Add a grey background color to the top navigation */
+.NavBar {
+    padding-right: 48px;
+    padding-left: 48px;
+    background-color:azure;
+    overflow: hidden;
+}
+
+#navTitle {
+    display: inline-block;
+    font-size: 28px;
+    color: darkslategrey;
+}
+body{
+    background-color: darkgrey;
+}
+
+.NavBar ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 36px;
+}
+
+.NavBar li {
+    display: inline;
+}
+
+.content {
+  background-color: white;
+  margin-top:16px;
+  margin-left:64px;
+  margin-right:64px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
